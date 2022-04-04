@@ -22,5 +22,5 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn clean package
+    - name: Execute the Jar File
+      run: java -jar target/Calculator-0.0.1-SNAPSHOT-jar-with-dependencies.jar
